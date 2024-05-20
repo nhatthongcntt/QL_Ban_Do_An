@@ -1,9 +1,11 @@
-package com.example.ql_ban_do_an;
+package com.example.ql_ban_do_an.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.EditText;
+
+import com.example.ql_ban_do_an.R;
 
 public class MainActivity extends AppCompatActivity {
 
