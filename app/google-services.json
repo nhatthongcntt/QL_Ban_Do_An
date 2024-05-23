@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "889209189548",
+    "project_id": "qlbandoan-6f252",
+    "storage_bucket": "qlbandoan-6f252.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889209189548:android:ecf3be1063e4e04900db09",
+        "android_client_info": {
+          "package_name": "com.example.a21_legiakiet_lab11"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcxHeWsgIx4xehIBhNjGi6VfEhhZvXIA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889209189548:android:e9154f3814a7d08900db09",
+        "android_client_info": {
+          "package_name": "com.example.ql_ban_do_an"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcxHeWsgIx4xehIBhNjGi6VfEhhZvXIA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
