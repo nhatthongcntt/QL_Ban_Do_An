@@ -1,4 +1,4 @@
-package com.example.ql_ban_do_an.View.Domain;
+package com.example.ql_ban_do_an.Model;
 
 public class Foods {
     private int CategoryId;

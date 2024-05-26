@@ -1,16 +1,15 @@
-package com.example.ql_ban_do_an.View.Activity;
+package com.example.ql_ban_do_an.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 
 import com.example.ql_ban_do_an.R;
-import com.example.ql_ban_do_an.View.Domain.Foods;
+import com.example.ql_ban_do_an.Model.Foods;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
