@@ -9,6 +9,12 @@ public class Category {
 
     }
 
+    public Category(int id, String imagePath, String name) {
+        this.id = id;
+        this.imagePath = imagePath;
+        Name = name;
+    }
+
     public int getId() {
         return id;
     }
