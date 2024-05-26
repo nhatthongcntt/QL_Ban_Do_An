@@ -12,8 +12,27 @@ public class Foods {
     private String Title;
     private int numberInCart;
 
+    private int TimeId;
+    private int TimeValue;
+
     public Foods(){
 
+    }
+
+    public int getTimeId() {
+        return TimeId;
+    }
+
+    public void setTimeId(int timeId) {
+        TimeId = timeId;
+    }
+
+    public int getTimeValue() {
+        return TimeValue;
+    }
+
+    public void setTimeValue(int timeValue) {
+        TimeValue = timeValue;
     }
 
     @Override
