@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="10dp"
     app:cardCornerRadius="15dp"
     app:cardElevation="3dp">
 
@@ -18,8 +19,9 @@
 
             <ImageView
                 android:id="@+id/imgListFood"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
                 android:layout_gravity="center"
                 tools:srcCompat="@tools:sample/avatars" />
 
