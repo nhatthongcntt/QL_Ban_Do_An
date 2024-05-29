@@ -10,7 +10,6 @@ import com.example.ql_ban_do_an.R;
 import com.example.ql_ban_do_an.databinding.ActivityIntroBinding;
 
 public class IntroActivity extends AppCompatActivity {
-
     ActivityIntroBinding binding;
 
     @Override
