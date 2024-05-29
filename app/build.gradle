@@ -6,7 +6,14 @@ plugins {
 android {
     namespace 'com.example.ql_ban_do_an'
     compileSdk 33
+    dataBinding {
+        enabled = true
+    }
+    buildFeatures {
+        dataBinding=true
+        viewBinding=true
 
+    }
     defaultConfig {
         applicationId "com.example.ql_ban_do_an"
         minSdk 24
