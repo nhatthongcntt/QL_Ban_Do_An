@@ -11,7 +11,6 @@ public class CartActivity extends AppCompatActivity {
     //private ActivityCartBinding binding;
     private RecyclerView.Adapter adapter;
     private ManagmentCart managementCart;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
