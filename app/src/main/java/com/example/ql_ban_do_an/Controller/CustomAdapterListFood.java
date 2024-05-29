@@ -1,6 +1,8 @@
 package com.example.ql_ban_do_an.Controller;
 
 import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.RoundedCorner;
 import android.view.View;
@@ -13,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.ql_ban_do_an.Model.Foods;
 import com.example.ql_ban_do_an.R;
+import com.example.ql_ban_do_an.View.DetailFoodActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -50,6 +53,24 @@ public class CustomAdapterListFood extends RecyclerView.Adapter<CustomAdapterLis
         Picasso.with(context)
                 .load(foods.getImagePath())
                 .into(holder.imgListFood);
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, DetailFoodActivity.class);
+
+                Bundle bundle = new Bundle();
+                bundle.putString("des", foods.getDescription());
+                bundle.putString("img", foods.getImagePath());
+                bundle.putString("title", foods.getTitle());
+                bundle.putDouble("price", foods.getPrice());
+                bundle.putDouble("star", foods.getStar());
+                bundle.putInt("time", foods.getTimeValue());
+
+                intent.putExtra("object", bundle);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
